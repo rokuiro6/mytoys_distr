@@ -1,0 +1,20 @@
+schema_version = "1.0.0"
+
+id = "MyToys_distr"
+version = "1.0.0"
+name = "MyToys Distr"
+tagline = "Useful Toys for Me"
+maintainer = "Riku HAYASAKA"
+type = "add-on"
+blender_version_min = "5.0.0"
+# blender_version_max = "5.1.1"
+
+license = [
+	"SPDX:GPL-3-or-later",
+	]
+
+## resources we will require
+## * files (for access of any file system operations)
+
+[permissions]
+files = "save renders to disk"
