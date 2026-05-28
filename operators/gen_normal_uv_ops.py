@@ -3,8 +3,6 @@ import bpy
 class GenNormalUV(bpy.types.Operator):
     bl_idname = "mytoys.gen_normal_uv"
     bl_label = "Pack Custom Normal to UVMap"
-    bl_description = "Pack evaluated custom normals into two new UV maps"
-    bl_options = {'REGISTER', 'UNDO'}
 
     @classmethod
     def poll(cls, context):
